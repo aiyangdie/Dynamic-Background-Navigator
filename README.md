@@ -16,7 +16,7 @@
 - 🎯 **交互友好** - 悬停效果和动画过渡
 
 ### 版本二：Neumorphic-Web-Navigator
-![拟态导航演示](https://raw.githubusercontent.com/aiyangdie/Dynamic-Background-Navigator/main/Neumorphic-Web-Navigator/演示截图.png)
+![拟态导航演示](https://raw.githubusercontent.com/aiyangdie/Dynamic-Background-Navigator/main/演示截图.png)
 
 **特点：**
 - 🎨 **拟态设计风格** - 采用现代化的拟态设计，界面简洁优雅

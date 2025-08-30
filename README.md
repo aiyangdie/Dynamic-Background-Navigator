@@ -4,16 +4,27 @@
 
 ## 🖼️ 项目演示
 
+### 版本一：Dynamic-Background-Navigator
 ![动态背景导航演示](https://raw.githubusercontent.com/aiyangdie/Dynamic-Background-Navigator/main/演示截图1.png)
 
-## ✨ 特性
-
+**特点：**
 - 🎭 **动态背景切换** - 支持多张背景图片随机切换
 - 🌈 **动态文字颜色** - 文字颜色持续变化，界面生动有趣
 - 📱 **完全响应式** - 适配各种设备尺寸
 - 🎨 **现代设计** - 透明毛玻璃效果，视觉层次丰富
 - ⚡ **智能图片检测** - 自动识别images文件夹中的图片
 - 🎯 **交互友好** - 悬停效果和动画过渡
+
+### 版本二：Neumorphic-Web-Navigator
+![拟态导航演示](https://raw.githubusercontent.com/aiyangdie/Dynamic-Background-Navigator/main/Neumorphic-Web-Navigator/演示截图.png)
+
+**特点：**
+- 🎨 **拟态设计风格** - 采用现代化的拟态设计，界面简洁优雅
+- 📱 **完全响应式** - 支持桌面端、平板和手机等各种设备
+- 🚀 **轻量级** - 纯HTML+CSS实现，无需额外依赖
+- 🌈 **美观界面** - 精心设计的配色方案和布局
+- ⚡ **快速加载** - 静态页面，加载速度快
+- 🎯 **易于定制** - 代码结构清晰，便于修改和扩展
 
 ## 🎭 动态功能
 
@@ -45,10 +56,17 @@
 
 ## 🚀 使用方法
 
+### Dynamic-Background-Navigator
 1. 将背景图片放入 `images/` 文件夹
 2. 在浏览器中打开 `index.html`
 3. 享受动态背景和文字动画效果
 4. 点击右上角按钮切换背景
+
+### Neumorphic-Web-Navigator
+1. 下载项目文件
+2. 在浏览器中打开 `index.html`
+3. 根据需要修改链接和样式
+4. 部署到您的服务器
 
 ## 🛠️ 技术栈
 
@@ -69,6 +87,12 @@ Dynamic-Background-Navigator/
 ├── bg.jpg             # 默认背景图片
 ├── 演示截图1.png      # 项目演示截图
 └── README.md          # 项目说明
+
+Neumorphic-Web-Navigator/
+├── index.html          # 主页面文件
+├── bg.jpg             # 背景图片
+├── 演示截图.png       # 项目演示截图
+└── README.md          # 项目说明
 ```
 
 ## 🎯 适用场景
@@ -77,6 +101,8 @@ Dynamic-Background-Navigator/
 - 创意作品集
 - 动态演示页面
 - 现代化网站导航
+- 团队内部链接集合
+- 学习资源整理
 
 ## 📄 开源协议
 

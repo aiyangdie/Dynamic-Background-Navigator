@@ -1,113 +1,110 @@
-# Dynamic-Background-Navigator
+# 🌈 Dynamic-Background-Navigator
 
-一个具有动态背景切换功能和五颜六色文字动画的现代化网址导航页面。
+**动态背景 + 拟态设计，双版本网址导航页面。**
 
-## 🖼️ 项目演示
+[![在线访问](https://img.shields.io/badge/在线访问-点击体验-blue)](https://aiyangdie.github.io/Dynamic-Background-Navigator)
 
-### 版本一：Dynamic-Background-Navigator
-![动态背景导航演示](https://raw.githubusercontent.com/aiyangdie/Dynamic-Background-Navigator/main/演示截图1.png)
+![动态背景版演示](演示截图1.png)
+![拟态版演示](演示截图.png)
 
-**特点：**
-- 🎭 **动态背景切换** - 支持多张背景图片随机切换
-- 🌈 **动态文字颜色** - 文字颜色持续变化，界面生动有趣
-- 📱 **完全响应式** - 适配各种设备尺寸
-- 🎨 **现代设计** - 透明毛玻璃效果，视觉层次丰富
-- ⚡ **智能图片检测** - 自动识别images文件夹中的图片
-- 🎯 **交互友好** - 悬停效果和动画过渡
+---
 
-### 版本二：Neumorphic-Web-Navigator
-![拟态导航演示](https://raw.githubusercontent.com/aiyangdie/Dynamic-Background-Navigator/main/演示截图.png)
+## 📌 项目简介
 
-**特点：**
-- 🎨 **拟态设计风格** - 采用现代化的拟态设计，界面简洁优雅
-- 📱 **完全响应式** - 支持桌面端、平板和手机等各种设备
-- 🚀 **轻量级** - 纯HTML+CSS实现，无需额外依赖
-- 🌈 **美观界面** - 精心设计的配色方案和布局
-- ⚡ **快速加载** - 静态页面，加载速度快
-- 🎯 **易于定制** - 代码结构清晰，便于修改和扩展
+Dynamic-Background-Navigator 提供两种风格的现代化网址导航页面：
 
-## 🎭 动态功能
+- **🎨 动态背景版**（`docs/`）— 支持多张背景图片随机切换 + 文字颜色波浪动画，视觉冲击力强
+- **🧊 拟态设计版**（`Neumorphic-Web-Navigator/`）— 深色拟态（Neumorphism）风格，简洁优雅
 
-### 背景切换
-- **自动随机** - 页面加载时随机选择背景
-- **手动切换** - 点击按钮切换到下一张背景
-- **智能检测** - 自动扫描images文件夹获取图片
-- **支持格式** - PNG、JPG、JPEG、GIF、WebP等
+两个版本均为纯 HTML + CSS + JS 实现，零依赖，即开即用。
 
-### 文字动画
-- **波浪效果** - 每个链接有不同的颜色变化延迟
-- **持续变化** - 8种颜色循环变化，永不重复
-- **悬停特效** - 鼠标悬停时显示特殊颜色动画
-- **性能优化** - 支持低性能设备自动禁用动画
+---
 
-## 🎨 设计特点
+## ✨ 核心特性
 
-- **透明容器** - 半透明背景，与动态背景完美融合
-- **毛玻璃效果** - 现代化的视觉体验
-- **圆角设计** - 柔和的界面元素
-- **动态色彩** - 丰富的颜色变化
+### 🎨 动态背景版
 
-## 📱 响应式支持
+- 🎭 **动态背景切换** — 支持多张背景图片自动轮播，6 秒切换
+- 🌈 **文字颜色动画** — 链接文字 8 色波浪循环变化，永不重复
+- 🔘 **手动切换** — 右上角按钮一键切换背景
+- 🪟 **毛玻璃效果** — 半透明容器 + backdrop-filter，与背景完美融合
+- 📱 **完全响应式** — CSS Grid 自适应布局，适配桌面 / 平板 / 手机
+- ⚡ **智能检测** — 自动扫描 `images/` 文件夹获取背景图片
 
-- **桌面端** - 多列网格布局，充分利用空间
-- **平板端** - 自适应列数，保持良好的可读性
-- **手机端** - 单列布局，触摸友好
-- **动画适配** - 低性能设备自动优化
+### 🧊 拟态设计版
 
-## 🚀 使用方法
+- 🎨 **Neumorphism 风格** — 柔和阴影营造立体感，深色主题护眼
+- 🖼️ **背景融合** — 半透明容器与背景图片自然融合
+- 🚀 **轻量级** — 纯 HTML + CSS 实现，无 JavaScript 依赖
+- 🎯 **易于定制** — 代码结构清晰，修改链接和样式简单直观
 
-### Dynamic-Background-Navigator
-1. 将背景图片放入 `images/` 文件夹
-2. 在浏览器中打开 `index.html`
-3. 享受动态背景和文字动画效果
-4. 点击右上角按钮切换背景
-
-### Neumorphic-Web-Navigator
-1. 下载项目文件
-2. 在浏览器中打开 `index.html`
-3. 根据需要修改链接和样式
-4. 部署到您的服务器
+---
 
 ## 🛠️ 技术栈
 
-- **HTML5** - 语义化结构
-- **CSS3** - 动画、渐变、响应式设计
-- **JavaScript** - 动态功能、图片检测
-- **CSS Grid** - 现代化布局系统
+| 技术 | 用途 |
+|------|------|
+| HTML5 | 语义化页面结构 |
+| CSS3 | Grid 布局、渐变、动画、backdrop-filter、transition |
+| JavaScript | 背景轮播、图片检测、文字颜色动画（仅动态版） |
+| CSS Grid | 响应式网格布局 |
 
-## 📁 文件结构
+---
+
+## 🚀 快速开始
+
+### 前置条件
+
+- 现代浏览器（Chrome / Firefox / Edge / Safari）
+
+### 安装步骤
+
+```bash
+git clone https://github.com/aiyangdie/Dynamic-Background-Navigator.git
+cd Dynamic-Background-Navigator
+```
+
+### 运行动态背景版
+
+1. 将背景图片放入 `docs/images/` 文件夹（支持 PNG / JPG / GIF / WebP）
+2. 在浏览器中打开 `docs/index.html`
+3. 点击右上角按钮切换背景，享受动态效果
+
+### 运行拟态设计版
+
+1. 在浏览器中打开 `Neumorphic-Web-Navigator/index.html`
+2. 根据需要修改链接和样式
+3. 可替换 `bg.jpg` 自定义背景图片
+
+---
+
+## 📂 项目结构
 
 ```
 Dynamic-Background-Navigator/
-├── index.html          # 主页面文件
-├── images/             # 背景图片文件夹
-│   ├── bg1.png
-│   ├── bg2.png
-│   └── ...
-├── bg.jpg             # 默认背景图片
-├── 演示截图1.png      # 项目演示截图
-└── README.md          # 项目说明
-
-Neumorphic-Web-Navigator/
-├── index.html          # 主页面文件
-├── bg.jpg             # 背景图片
-├── 演示截图.png       # 项目演示截图
-└── README.md          # 项目说明
+├── docs/                                # 🎨 动态背景版
+│   ├── index.html                       # 主页面
+│   ├── README.md                        # 版本说明
+│   └── images/                          # 背景图片文件夹
+├── Neumorphic-Web-Navigator/            # 🧊 拟态设计版
+│   ├── index.html                       # 主页面
+│   ├── bg.jpg                           # 背景图片
+│   ├── 版本说明.md                       # 版本说明
+│   └── README.md                        # 版本说明
+├── 演示截图.png                          # 拟态版截图
+├── 演示截图1.png                         # 动态背景版截图
+├── CNAME                                # GitHub Pages 自定义域名
+└── README.md                            # 项目说明
 ```
 
-## 🎯 适用场景
+---
 
-- 个人主页展示
-- 创意作品集
-- 动态演示页面
-- 现代化网站导航
-- 团队内部链接集合
-- 学习资源整理
+## 🤝 贡献与许可证
 
-## 📄 开源协议
+欢迎提交 PR 或 [报告问题](https://github.com/aiyangdie/Dynamic-Background-Navigator/issues)！
 
 本项目采用 MIT 开源协议，您可以自由使用、修改和分发。
 
 ---
 
-*让网址导航变得生动有趣*
+*🎭 让网址导航变得生动有趣*

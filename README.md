@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/covers/34-Dynamic-Background-Navigator.jpg" alt="Dynamic-Background-Navigator 项目封面" width="100%"></p>
+
 # 🌈 Dynamic-Background-Navigator
 
 **动态背景 + 拟态设计，双版本网址导航页面。**
